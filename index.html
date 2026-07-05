@@ -3,63 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devak Global Exports | Premium Leather</title>
+    <title>Devak Global Exports | Premium Leather Solutions</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; }
+        body { font-family: 'Georgia', serif; line-height: 1.6; color: #2c241a; background: #fdfbf7; }
         
-        /* Header */
-        header { background: #2c241a; color: #fff; padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; }
-        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        /* Navbar */
+        nav { background: #2c241a; color: #fff; padding: 20px; text-align: center; }
+        nav a { color: #d4af37; text-decoration: none; margin: 0 15px; font-weight: bold; letter-spacing: 1px; }
 
-        /* Hero Section */
-        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1597403921234-87cc3c57a075') center/cover; height: 500px; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
-        .hero h1 { font-size: 3rem; }
+        /* Hero */
+        .hero { background: #e5d3b3; padding: 60px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
 
-        /* Features Section */
-        .features { padding: 50px 20px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; margin: auto; }
-        .card { padding: 30px; border: 1px solid #ddd; text-align: center; border-radius: 8px; }
-        
-        /* Product Images Section */
-        .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; padding: 20px; max-width: 1200px; margin: auto; }
-        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 5px; }
+        /* Gallery Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; max-width: 1200px; margin: auto; }
+        .card { background: #fff; padding: 15px; border: 1px solid #ddd; text-align: center; }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card h3 { margin: 15px 0; color: #2c241a; }
 
-        footer { background: #1a1a1a; color: #fff; text-align: center; padding: 40px; margin-top: 50px; }
+        /* Contact Section */
+        .contact { background: #eee; padding: 40px; text-align: center; }
+        footer { background: #2c241a; color: #fff; text-align: center; padding: 20px; }
     </style>
 </head>
 <body>
 
-<header>
-    <div class="logo"><strong>DEVAK GLOBAL EXPORTS</strong></div>
-    <nav>
-        <a href="#">HOME</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">PRODUCTS</a>
-        <a href="#">QUALITY</a>
-        <a href="#">CONTACT US</a>
-    </nav>
-</header>
+<nav>
+    <a href="#">HOME</a> | <a href="#">ABOUT US</a> | <a href="#">PRODUCTS</a> | <a href="#">QUALITY</a> | <a href="#">CONTACT US</a>
+</nav>
 
 <section class="hero">
-    <h1>Premium Semi-Finished Leather Exporter</h1>
-    <p>Naturally Processed. Export Quality. Trusted Worldwide.</p>
+    <h1>Devak Global Exports</h1>
+    <p>Premium Semi-Finished Leather | 100% Natural Bleaching</p>
 </section>
 
-<section class="features">
-    <div class="card"><h3>Natural Bleaching</h3><p>No chemical bleaching methods.</p></div>
-    <div class="card"><h3>Premium Quality</h3><p>Carefully selected, export ready.</p></div>
-    <div class="card"><h3>Global Export</h3><p>Shipping to all countries.</p></div>
-</section>
+<div class="grid">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1627123424574-724758594693" alt="Natural Process">
+        <h3>Natural Bleaching Process</h3>
+        <p>100% chemical-free natural processing.</p>
+    </div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa" alt="Leather Warehouse">
+        <h3>Premium Semi-Finished Leather</h3>
+        <p>Carefully selected hides for global export.</p>
+    </div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1598971830602-0e318d1a1b15" alt="Inspection">
+        <h3>Detailed Inspection</h3>
+        <p>Strict quality control at every step.</p>
+    </div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1597403921234-87cc3c57a075" alt="Products">
+        <h3>Final Product Gallery</h3>
+        <p>Crafted to perfection for manufacturers.</p>
+    </div>
+</div>
 
-<!-- இங்கிருந்து நீங்கள் கேட்ட படங்களைச் சேர்க்கலாம் -->
-<section class="gallery">
-    <img src="https://images.unsplash.com/photo-1627123424574-724758594693" alt="Leather">
-    <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa" alt="Leather Warehouse">
-    <img src="https://images.unsplash.com/photo-1598971830602-0e318d1a1b15" alt="Leather Processing">
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Address: Dindigul, Tamil Nadu, India</p>
+    <p>Email: info@devakglobalexports.in | Web: www.devakglobalexports.in</p>
 </section>
 
 <footer>
-    <p>&copy; 2026 Devak Global Exports. All Rights Reserved.</p>
+    &copy; 2026 Devak Global Exports. All Rights Reserved.
 </footer>
 
 </body>
